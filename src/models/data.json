@@ -1,0 +1,72 @@
+{
+  "services": [
+    {
+      "title": "Products Development",
+      "description": "Specializing and creating high quality products were an integral part of our ethos which members of the company pursued. finally, our precious wide range product LINA has formulated by our determined R&D from selected bespoke solutions.",
+      "image": "production.svg"
+    },
+    {
+      "title": "System Consistency",
+      "description": "Our R&D team usually works to improve existing or new product labels, size, design, color, Oduor etc. Prototypes and newly designed sample products shall be submitted to the management to obtain go ahead approval.",
+      "image": "consistency.svg"
+    },
+    {
+      "title": "Maintainance Management",
+      "description": "We work to improve expected life of machineries, minimize downtime likely to be occurred from sudden machine stops and possess stable workfiow induced from maximum utilization of machineries.",
+      "image": "management.svg"
+    }
+  ],
+
+  "testimonies": [
+    {
+      "title": "Cirtificate of Recognition",
+      "testimony": "OUR COMPANY IS SO GRATEFUL AND SATISFIED BY THE CERTIFICATE 0-E RECOGNITION  GIVEN BY THE MINISTER OF MINISTRY OF REVENUES. ",
+      "doner": "Ministry of Revenues",
+      "image": "certi.png"
+    },
+    {
+      "title": "Recognition Cup",
+      "testimony": "WE HAVE GIVEN THIS BY  MR. LAKE AYALEW FOR ACHIEVING BETTER RESULTS IN THE 2019/2020 FISCAL YEAR BY COMPLYING TAX LAW.",
+      "doner": "Ministry of Revenues",
+      "image": "award.png"
+    }
+  ],
+
+  "products": [
+    {
+      "name": "Shiny Hair food- The mysterious",
+      "image": "product(7).png",
+      "category": "Cream"
+    },
+    {
+      "name": "VASELINE SACKET",
+      "image": "product(8).png",
+      "category": "Sachet"
+    },
+    {
+      "name": "LINA SACKET",
+      "image": "product(9).png",
+      "category": "Sachet"
+    },
+    {
+      "name": "Star Hair food- The Pretty",
+      "image": "product(10).png",
+      "category": "Cream"
+    },
+    {
+      "name": "Avocado Cream",
+      "image": "product(11).png",
+      "category": "Cream"
+    },
+    {
+      "name": "Oliva",
+      "image": "product(12).png",
+      "category": "Oil"
+    },
+    {
+      "name": "Paraffin",
+      "image": "product(13).png",
+      "category": "Oil"
+    }
+  ]
+}
