@@ -6,11 +6,11 @@ export default function CancelIcon() {
       viewBox="0,0,256,256"
       width="50px"
       height="50px"
-      fill-rule="nonzero"
+      fillRule="nonzero"
     >
       <g
         fill="#ffd000"
-        fill-rule="nonzero"
+        fillRule="nonzero"
         stroke="none"
         stroke-width="1"
         stroke-linecap="butt"

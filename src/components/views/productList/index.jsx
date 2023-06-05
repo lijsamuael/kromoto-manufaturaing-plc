@@ -8,7 +8,7 @@ export default function ProductList() {
           Our Products
         </h2>
         <h3 className="pt-16 text-3xl font-semibold pb-8">Creams</h3>
-        <p classNameName="text-xl text-center py-4">
+        <p className="text-xl text-center py-4">
           Our hair and body creams, which are natures based, gently refreshes
           sensitive skin, promoting comfort and softness. we offers, best creams
           for additional smooth, gloving and younger looking skin. we utilize
