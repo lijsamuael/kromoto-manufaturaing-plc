@@ -27,7 +27,7 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link to="/admin" className="hover:underline ml-4">
+              <Link to="/login" className="hover:underline ml-4">
                 Login
               </Link>
             </li>

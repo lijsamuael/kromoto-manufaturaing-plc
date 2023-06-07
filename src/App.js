@@ -7,6 +7,7 @@ import ProductPage from "./pages/product";
 import ProductListPage from "./pages/productList";
 import ContactPage from "./pages/contact";
 import Admin from "./pages/admin/admin";
+import Login from "./pages/admin/login";
 
 export default function App() {
   return (
@@ -21,7 +22,9 @@ export default function App() {
           <Route path="/products" element={<ProductPage />} />
           <Route path="/productList" element={<ProductListPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/admin" element={<Admin />} />
+
         </Routes>
       </div>
       <div>
