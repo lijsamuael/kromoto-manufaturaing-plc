@@ -26,6 +26,11 @@ export default function Footer() {
                 Contact
               </Link>
             </li>
+            <li>
+              <Link to="/admin" className="hover:underline ml-4">
+                Login
+              </Link>
+            </li>
           </ul>
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />

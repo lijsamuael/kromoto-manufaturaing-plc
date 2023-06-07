@@ -62,13 +62,13 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 justify-center xl:justify-between max-w-[1800px] gap-x-8 mx-auto px-[5%]">
           {data.team.map((item, index) => (
             <div key={index} className="shrink w-full  ">
-              {/* <div className="relative top-16 flex items-center justify-center ">
+              <div className="relative top-16 flex items-center justify-center ">
                 <img
-                  src={item.image}
+                  src={`/images/${item.image}`}
                   alt=""
                   className="border-gray-dark3 border-8 rounded-full w-40 h-40 object-cover z-10"
                 />
-              </div> */}
+              </div>
               <div className="text-center shadow-lg bg-primary-white hover:bg-secondary-light2 hover:scale-105 hover:duration-500  z-0 pt-20 font-mono space-y-6 px-4 rounded-lg py-2">
                 <div className="space-y-2">
                   <h4 className="text-2xl font-bold whitespace-nowrap">
@@ -76,8 +76,8 @@ export default function AboutPage() {
                   </h4>
                   <p className="text-sm whitespace-nowrap">{item.role}</p>
                 </div>
-                <p>{item.description}</p>
-                <div className="flex justify-center items-center gap-x-8">
+                {/* <p>{item.description}</p> */}
+                {/* <div className="flex justify-center items-center gap-x-8">
                   <a href="/" className="hover:animate-bounce">
                     <LinkedinIcon />
                   </a>
@@ -87,7 +87,7 @@ export default function AboutPage() {
                   <a href="/" className="hover:animate-bounce">
                     <InstagramIcon />
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           ))}
