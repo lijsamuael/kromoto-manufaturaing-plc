@@ -3,17 +3,17 @@
     {
       "title": "Products Development",
       "description": "Specializing and creating high quality products were an integral part of our ethos which members of the company pursued. finally, our precious wide range product LINA has formulated by our determined R&D from selected bespoke solutions.",
-      "image": "production.svg"
+      "image": "product.gif"
     },
     {
       "title": "System Consistency",
       "description": "Our R&D team usually works to improve existing or new product labels, size, design, color, Oduor etc. Prototypes and newly designed sample products shall be submitted to the management to obtain go ahead approval.",
-      "image": "consistency.svg"
+      "image": "consistency.gif"
     },
     {
       "title": "Maintainance Management",
       "description": "We work to improve expected life of machineries, minimize downtime likely to be occurred from sudden machine stops and possess stable workfiow induced from maximum utilization of machineries.",
-      "image": "management.svg"
+      "image": "manage.gif"
     }
   ],
 
@@ -35,7 +35,12 @@
   "products": [
     {
       "name": "Shiny Hair food- The mysterious",
-      "image": "product(7).png",
+      "image": "product(6).png",
+      "category": "Cream"
+    },
+    {
+      "name": "Coconat",
+      "image": "product(5).png",
       "category": "Cream"
     },
     {
@@ -67,6 +72,33 @@
       "name": "Paraffin",
       "image": "product(13).png",
       "category": "Oil"
+    }
+  ],
+
+  "team": [
+    {
+      "name": " Mr. Yonas Wolday",
+      "role": "Chief Executive Officer(CEO)",
+      "description": "The CEO's role in raising a company's corporate IQ.",
+      "image": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+    },
+    {
+      "name": "GM - Mr. Abebaw Mekonnen",
+      "role": "GM",
+      "description": "The CEO's role in raising a company's corporate IQ.",
+      "image": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+    },
+    {
+      "name": "Mr. Negesse Addisu",
+      "role": "Finance & Accounts Dept",
+      "description": "The CEO's role in raising a company's corporate IQ.",
+      "image": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+    },
+    {
+      "name": "Ms. Feneti Ayansa",
+      "role": "HR & Facility Mgmt. Dept",
+      "description": "The CEO's role in raising a company's corporate IQ.",
+      "image": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
     }
   ]
 }

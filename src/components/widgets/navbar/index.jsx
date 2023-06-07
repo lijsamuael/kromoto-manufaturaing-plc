@@ -16,28 +16,42 @@ export default function Navbar() {
   };
 
   return (
-    <nav className=" bg-gray-dark3 font-semibold bg-transparent text-white py-8 h-20 px-[5%]">
-      <div className="flex justify-between lg:justify-around">
+    <nav className=" w-full bg-gray-dark3 font-semibold bg-transparent text-white py-8 h-20 ">
+      <div className="flex max-w-[1200px] mx-auto justify-between items-center">
         <div className="text-success-dark1">
-          <Link>KROMOTO MANUFACTURING PLC</Link>
+          <Link>
+            <img className="w-36" src="/images/logo-white.png" alt="" />
+          </Link>
         </div>
         <div className="hidden lg:flex gap-x-8">
-          <Link to="/" className="hover:border-b-2 border-success-dark1 active:border-b-2 active:text-yellow-300">
+          <Link
+            to="/"
+            className="hover:border-b-2 border-success-dark1 active:border-b-2 active:text-yellow-300"
+          >
             HOME
           </Link>
-          <Link to="/about" className="hover:border-b-2 border-success-dark1 active:border-b-2 active:text-yellow-300">
+          <Link
+            to="/about"
+            className="hover:border-b-2 border-success-dark1 active:border-b-2 active:text-yellow-300"
+          >
             ABOUT
           </Link>
-          <Link to="/products" className="hover:border-b-2 border-success-dark1 active:border-b-2 active:text-yellow-300">
+          <Link
+            to="/products"
+            className="hover:border-b-2 border-success-dark1 active:border-b-2 active:text-yellow-300"
+          >
             PRODUCTS
           </Link>
-          <Link to="/productList" className="hover:border-b-2 border-success-dark1 active:border-b-2 active:text-yellow-300">
+          <Link
+            to="/productList"
+            className="hover:border-b-2 border-success-dark1 active:border-b-2 active:text-yellow-300"
+          >
             PRODUCT LIST
           </Link>
-          <Link to="/portfolio" className="hover:border-b-2 border-success-dark1 active:border-b-2 active:text-yellow-300">
-            PORTFOLIO
-          </Link>
-          <Link to="/contact" className="hover:border-b-2 border-success-dark1 active:border-b-2 active:text-yellow-300">
+          <Link
+            to="/contact"
+            className="hover:border-b-2 border-success-dark1 active:border-b-2 active:text-yellow-300"
+          >
             CONTACT US
           </Link>
         </div>

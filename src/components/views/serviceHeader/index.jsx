@@ -2,7 +2,7 @@ import data from "../../../models/data.json";
 
 export default function ServiceHeader() {
   return (
-    <section className="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] px-[5%]">
+    <section className="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] px-[5%] ">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
@@ -14,8 +14,7 @@ export default function ServiceHeader() {
                 What We Offer
               </h2>
               <p className="text-body-color text-base">
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+                There are many variations of services that we offer to the community, here are listed some of them.
               </p>
             </div>
           </div>
@@ -24,8 +23,8 @@ export default function ServiceHeader() {
           {data.services.map((service, item) => (
             <div className="w-full px-4 md:w-1/2 lg:w-1/3">
               <div className="mb-8 rounded-[20px] bg-white p-10 shadow-md hover:shadow-lg md:px-7 xl:px-10">
-                <div className="bg-success-dark2 mx-auto mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl p-4">
-                  <img src={`/icons/${service.image}`} alt="" />
+                <div className=" mx-auto mb-8 flex w-36 items-center justify-center rounded-2xl p-4">
+                  <img src={`/gifs/${service.image}`} alt="" />
                 </div>
                 <h4 className="text-dark text-center mb-3 text-xl font-semibold line-clamp-1">
                   {service.title}

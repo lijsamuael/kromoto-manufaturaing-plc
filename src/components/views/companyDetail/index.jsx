@@ -1,6 +1,6 @@
 export default function CompanyDetail() {
   return (
-    <section className="bg-gray-dark3 text-white border-b py-8">
+    <section className=" text-blackb py-8 bg-gray-light2">
       <div className="container max-w-5xl mx-auto m-8">
         <div className="w-full mb-4">
           <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>

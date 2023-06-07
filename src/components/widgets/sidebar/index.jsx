@@ -4,9 +4,9 @@ import CancelIcon from "../../icons/cancel";
 
 export default function Sidebar({ onClose }) {
   return (
-    <section className="fixed top-0 right-0 h-screen bg-yellow-400 ">
+    <section className="fixed bg-gray-dark3 top-0 right-0 h-screen bg-yellow-400 z-1001">
       <div className=" bg-gradient-to-l from-gray-500 to-gray-700 w-64 h-[100vh] items-end">
-        <div className="flex flex-col gap-y-8 text-white font-mono font-bold mx-auto ">
+        <div className="flex flex-col items-center gap-y-8 text-white font-mono font-bold mx-auto ">
           <button onClick={onClose} className="py-4 self-end px-[5%]">
             <CancelIcon />
           </button>
@@ -33,12 +33,6 @@ export default function Sidebar({ onClose }) {
             className="hover:border-b-2 border-success-dark1 active:border-b-2 active:text-yellow-300"
           >
             PRODUCT LIST
-          </Link>
-          <Link
-            to="portfolio"
-            className="hover:border-b-2 border-success-dark1 active:border-b-2 active:text-yellow-300"
-          >
-            PORTFOLIO
           </Link>
           <Link
             to="contact"

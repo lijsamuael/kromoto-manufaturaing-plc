@@ -8,10 +8,12 @@ export default function HomePage() {
   return (
     <main className="">
       <LandingHeader />
+      {/* <MainHeader /> */}
       <ServiceHeader />
-      <Testimonial />
-      <ProductList />
       <CompanyDetail />
+      <ProductList />
+
+      <Testimonial />
     </main>
   );
 }
